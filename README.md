@@ -1,10 +1,10 @@
 # 🏥 Peningkatan performa model Algoritma Klasifikasi dengan Penerapan Hybrid Resampling SMOTE-ENN menggunakan dataset diabetes (brfss 2015)
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Pandas](https://img.shields.io/badge/Pandas-1.5.3-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
-[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2+-orange.svg)](https://scikit-learn.org/)
+[![Python](https://img.shields.io/badge/Python-3.10.12-blue.svg)](https://www.python.org/downloads/)
+[![Pandas](https://img.shields.io/badge/Pandas-2.0.3-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2.2-orange.svg)](https://scikit-learn.org/)
 [![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-0.10.1-ff6347?logo=python&logoColor=white)](https://imbalanced-learn.org/)
-[![XGBoost](https://img.shields.io/badge/XGBoost-1.7.5-337ab7?logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-2.0.3-337ab7?logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
 
 **Proyek penelitian ini mengembangkan model machine learning untuk deteksi dini diabetes menggunakan pendekatan hybrid resampling SMOTE-ENN (Synthetic Minority Over-sampling Technique - Edited Nearest Neighbors) untuk mengatasi ketidakseimbangan kelas pada dataset indikator kesehatan.**
 
