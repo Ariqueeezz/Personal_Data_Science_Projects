@@ -1,29 +1,29 @@
-# Ketentuan Proyek
-- Buat model Machine Learning dengan Algoritma KNN, Naive Bayes, Decision Tree (C.45)
-- Dataset harus 100rb baris/instances dan sudah pernah dipakai pada artikel orang lain
-- Sertakan Evaluasi Model dengan Akurasi > 0,95, Precision, Recall, F1-Score, ROC dan AUC
+# 🏥 Peningkatan performa model Algoritma Klasifikasi dengan Penerapan Hybrid Resampling SMOTE-ENN menggunakan dataset diabetes (brfss 2015)
 
-Kelompok 1:
-1. Raihan Ariq Muzakki
-2. Syahril Achmad Fahrezi
-3. Fazri Abdurrahman
-4. Awang Adriansyah Hermawan
-5. advan zharif naja
-6. Dimas Hendri Pamungkas
-7. Bayu Aji pradana
+[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Pandas](https://img.shields.io/badge/Pandas-1.5.3-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Scikit-learn](https://img.shields.io/badge/Scikit--learn-1.2+-orange.svg)](https://scikit-learn.org/)
+[![imbalanced-learn](https://img.shields.io/badge/imbalanced--learn-0.10.1-ff6347?logo=python&logoColor=white)](https://imbalanced-learn.org/)
+[![XGBoost](https://img.shields.io/badge/XGBoost-1.7.5-337ab7?logo=xgboost&logoColor=white)](https://xgboost.readthedocs.io/)
 
-# 📝 NotesAI - AI-Powered Note Taking App
+**Proyek penelitian ini mengembangkan model machine learning untuk deteksi dini diabetes menggunakan pendekatan hybrid resampling SMOTE-ENN (Synthetic Minority Over-sampling Technique - Edited Nearest Neighbors) untuk mengatasi ketidakseimbangan kelas pada dataset indikator kesehatan.**
 
-<div align="center">
+## 📌 Highlight Proyek Awal
 
-![NotesAI Banner](https://img.shields.io/badge/NotesAI-v1.0-blue?style=for-the-badge)
-![Platform](https://img.shields.io/badge/Platform-Android-green?style=for-the-badge&logo=android)
-![Kotlin](https://img.shields.io/badge/Kotlin-100%25-purple?style=for-the-badge&logo=kotlin)
-![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)
+- **Algoritma**: KNN, Naive Bayes, Decision Tree (C.45)
+- **Dataset**: BRFSS 2015 Diabetes Health Indicators (253.680 record, 21 fitur)
+- **Evaluasi Model**: dengan Akurasi, Precision, Recall, F1-Score, ROC dan AUC
+> Ket:
+> - Dataset harus 100rb baris/instances dan sudah pernah dipakai pada artikel orang lain
+> - Akurasi > 0.95
 
-**Aplikasi pencatatan cerdas berbasis AI untuk Android dengan fitur organisasi terstruktur dan AI Assistant**
+## 📌 Highlight Penelitian/Proyek Besar
 
-[📖 Dokumentasi Lengkap](./docs/Laporan_Dokumentasi_Aplikasi.pdf) | [🧪 Test Report](./TEST_SUMMARY_REPORT.md) | [📋 Changelog](./CHANGELOG.md)
+- **Dataset**: BRFSS 2015 Diabetes Health Indicators (253.680 record, 21 fitur)
+- **Distribusi Kelas**: Highly imbalanced (218.334 negatif : 35.346 positif)
+- **Model Terbaik**: Random Forest + SMOTE-ENN
+- **Peningkatan Recall**: Dari 17.34% → 96.83% (5.6× improvement)
+- **ROC-AUC Score**: 0.9931
 
 </div>
 
@@ -31,109 +31,96 @@ Kelompok 1:
 
 ## 👥 Tim Pengembang
 
-**Kelompok 3 - Kelas F5A5**
+**Kelompok 1 - Kelas F5A1**
 
 | Nama | NPM |
 |------|-----|
 | Raihan Ariq Muzakki | 202310715297 |
-| Bayu Aji Pradana | 202310715082 |
+| Bayu Aji Pradana | 202310715302 |
 | Fazri Abdurahman | 202310715082 |
-| Syahril Achmad Fahrezi | 202310715082 |
-| Awang Andriansyah Hermawan | 202310715082 |
-| Advan Zharif Naja | 202310715082 |
-| Dimas Hendri Pamungkas | 202310715082 |
+| Syahril Achmad Fahrezi | 202310715211 |
+| Awang Andriansyah Hermawan | 202310715155 |
+| Advan Zharif Naja | 202310715290 |
+| Dimas Hendri Pamungkas | 202310715274 |
 
 **Dosen Pengampu:** Wowon Priatna, ST., M.Ti  
-**Mata Kuliah:** Pemrograman Perangkat Bergerak  
+**Mata Kuliah:** Machine Learning  
 **Institusi:** Universitas Bhayangkara Jakarta Raya
 
 ---
 
 ## 📌 Informasi Proyek
 
-### Proyek 1
-- **Nama Proyek:** NotesAI
-- **Notebook:** [Proyek 1](https://git.lab.ubharajaya.ac.id)
-- **Platform:** Android (Minimum API 24 / Android 7.0)
-- **Bahasa:** Kotlin 100%
-- **UI Framework:** Jetpack Compose + Material 3
+### Proyek Awal
+- **Nama Proyek:** Deteksi Dini Penyakit Diabetes Menggunakan Algoritma Decision Tree, Naive Bayes, KNN dengan penerapan SMOTE-ENN
+- **Notebook:** [Proyek 1](https://colab.research.google.com/github/Ariqueeezz/MachineLearningProject/blob/main/Experiment_DiabetesPrediction.ipynb)
+- **Platform:** Google Colab
+- **Bahasa:** Python 100%
+
+### Proyek Besar/Penelitian
+- **Nama Proyek:** Peningkatan Kinerja Deteksi Dini Diabetes Melalui Komparasi Algoritma Klasifikasi dengan Penerapan Hybrid Resampling SMOTE-ENN
+- **Notebook:** [Proyek 2](https://colab.research.google.com/github/Ariqueeezz/MachineLearningProject/blob/main/Experiment2_DiabetesPrediction.ipynb)
+- **Platform:** Google Colab
+- **Bahasa:** Python 100%
 
 ---
 
-## 🎯 Tujuan dan Sasaran Aplikasi
+## 🎯 Tujuan Penelitian/Proyek Besar
 
-### Masalah yang Dipecahkan
-1. **Catatan tidak terorganisir** - Catatan bercampur tanpa struktur yang jelas
-2. **Sulit mencari informasi** - Kehilangan waktu mencari catatan penting
-3. **Kurang interaktif** - Tidak ada bantuan untuk merangkum atau menganalisis catatan
-4. **Risiko kehilangan data** - Catatan terhapus permanen tanpa backup
+1. Mengkomparasi performa algoritma klasifikasi berbasis pohon (Decision Tree, Random Forest, XGBoost) untuk deteksi dini diabetes
+2. Menganalisis dampak hybrid resampling SMOTE-ENN terhadap kemampuan deteksi kelas minoritas
+3. Meminimalkan False Negative (kasus diabetes yang terlewat) untuk mendukung intervensi dini  
 
-### Target Pengguna
-- 🎓 **Mahasiswa** (18-25 tahun) - Catatan kuliah, tugas, ringkasan dokumen
-- 💼 **Profesional** (22-40 tahun) - Meeting notes, to-do lists, catatan kerja
-- 👤 **Pengguna Umum** (18-40 tahun) - Catatan pribadi, jurnal, daftar belanja
+---
 
-### Keunggulan NotesAI
-✅ **Organisasi Terstruktur** - Sistem kategori dengan visual gradien warna  
-✅ **AI Assistant** - Powered by Gemini 2.5 Flash untuk respons kontekstual  
-✅ **Rich Text Editor** - WYSIWYG editor dengan drag-and-drop toolbar  
-✅ **Smart Search** - Pencarian realtime dengan filter kategori  
-✅ **Data Safety** - Soft delete dengan trash & restore functionality  
-✅ **Document Parser** - Upload PDF/TXT/DOCX dengan auto-summary  
+## 📊 Dataset
 
-## 📄 Dokumentasi Tambahan
+### Sumber Data
+**BRFSS 2015 Diabetes Health Indicators Dataset**
+- Total record: 253.680
+- Jumlah fitur: 21 variabel prediktor
+- Target: `Diabetes_binary` (0 = tidak diabetes, 1 = diabetes/prediabetes)
+- Sumber: [Kaggle - Diabetes Health Indicators](https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset)
 
-### File Dokumentasi
-- 📖 [Laporan Lengkap](./docs/Laporan_Dokumentasi_Aplikasi.pdf) - Dokumentasi lengkap 35 halaman
-- 🧪 [Test Summary Report](./TEST_SUMMARY_REPORT.md) - Laporan pengujian detail
-- 📋 [Changelog](./CHANGELOG.md) - Riwayat perubahan versi
-- 🎨 [UI/UX Guidelines](./docs/UI_GUIDELINES.md) - Design system (coming soon)
+### Karakteristik Fitur
 
-### API Documentation
-- 🤖 [Gemini API Docs](https://ai.google.dev/docs)
-- 📚 [Android Developers](https://developer.android.com)
-- 📝 [Kotlin Documentation](https://kotlinlang.org/docs)
+| Kategori | Fitur |
+|----------|-------|
+| **Kondisi Kesehatan** | HighBP, HighChol, CholCheck, BMI, Stroke, HeartDiseaseorAttack |
+| **Gaya Hidup** | Smoker, PhysActivity, Fruits, Veggies, HvyAlcoholConsump |
+| **Akses Kesehatan** | AnyHealthcare, NoDocbcCost |
+| **Status Kesehatan** | GenHlth, MentHlth, PhysHlth, DiffWalk |
+| **Demografi** | Sex, Age, Education, Income |
 
-### Referensi Akademik
-Semua referensi dan kutipan tercantum di [Daftar Pustaka](./docs/Laporan_Dokumentasi_Aplikasi.pdf) halaman 33
+### Distribusi Kelas
+```
+Data Asli (Imbalanced):
+├── Kelas 0 (Non-diabetes): 218.334 (86.1%)
+└── Kelas 1 (Diabetes/Prediabetes): 35.346 (13.9%)
+
+Setelah SMOTE-ENN:
+├── Kelas 0: 145.088 (43.9%)
+└── Kelas 1: 185.263 (56.1%)
+```
 
 ## 🙏 Acknowledgments
 
 ### Special Thanks
-- 🎓 **Bapak Arif Rifai Dwiyanto, ST., MTI** - Dosen pembimbing dan pengampu mata kuliah
+- 🎓 **Bapak Wowon Priatna, ST., M.Ti** - Dosen pembimbing dan pengampu mata kuliah
 - 🏫 **Universitas Bhayangkara Jakarta Raya** - Dukungan fasilitas dan laboratorium
-- 🤖 **Claude AI (Anthropic)** - AI assistant untuk pengembangan dan debugging
-- 🎨 **Material Design Team** - Design system yang digunakan
-- 📚 **Android Developer Community** - Dokumentasi dan best practices
+- 📚 **Rekan Rekan Sekelompok** - Bantuan Pembuatan Proyek
 
 ### Tools & Services
-- Android Studio - IDE terbaik untuk Android development
-- Jetpack Compose - Modern UI toolkit
-- Gemini API - AI capabilities
-- PDFBox - PDF parsing library
-- Git Lab UBHARA - Version control hosting
-
----
-
-## 📞 Kontak
-
-**Tim Pengembang Kelompok 3**
-
-📧 Email: [kelompok3.notesai@ubharajaya.ac.id](mailto:kelompok3.notesai@ubharajaya.ac.id)  
-🌐 Repository: [git.lab.ubharajaya.ac.id/kelompok-3/notesai](https://git.lab.ubharajaya.ac.id)  
-🏫 Institusi: Universitas Bhayangkara Jakarta Raya  
-
----
+- Google Colab - Notebook terbaik untuk Machine Learning Model development
+- Github - Version control
 
 <div align="center">
 
-**Made with ❤️ by Kelompok 3**
+**Made with ❤️ by Kelompok 1**
 
 **Fakultas Ilmu Komputer - Program Studi Informatika**  
 **Universitas Bhayangkara Jakarta Raya**
 
 **2025**
-
-[⬆️ Back to Top](#-notesai---ai-powered-note-taking-app)
 
 </div>
